@@ -1,5 +1,49 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
 \begin{document}
-(Type your content here.)
+\begin{titlepage}
+ \addtolength{\topmargin}{-.5in}
+ \center
+ \includegraphics[scale=1.5]{OLCF_color.png}\\[2cm]
+ \newcommand{\sep}{\rule{\linewidth}{0.5mm}}
+ \sep \\[0.4cm]
+ \textsc{\huge Tiny Summit}\\[0.4cm]
+ \textsc{\large A Project Proposal}\\[0.4cm]
+ \sep \\[2cm]
+ \textsc{\LARGE Oak Ridge Associated Universities}\\[0.5cm]
+ \textsc{\Large Oak Ridge Leadership Computing Facility}\\[0.5cm]
+ \textsc{\large Under the Guidance of James Rodgers}\\[4.6cm]
+
+ \begin{minipage}{0.4\textwidth}
+ \begin{flushleft} \large
+ \emph{Co-Author:}\\
+Gregory \textsc{Croisdale}
+ \end{flushleft}
+ \end{minipage}
+~
+ \begin{minipage}{0.4\textwidth}
+ \begin{flushright} \large
+ \emph{Co-Author:} \\
+Benjamin \textsc{Klein}
+ \end{flushright}
+ \end{minipage}\\[2cm]
+ {\large \today}
+ \vfill
+\end{titlepage}
+
+\begin{center}
+    \center
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+    \hline
+    Item Name & Amount & Cost & Provider \\ \hline
+	Raspberry Pi 3 Model B V1.2 & 9 & \$ 35.00 & \href{www.newark.com/raspberry-pi/rpi2-modb-v1-2/sbc-raspberry-pi-2-model-b-v1/dp/95Y1948?COM=superwidget-link_RaspberryPi}{Element14}\\ \hline
+    Network Switch (9 Port Minimum) & 1 & \$ 39.00 & \href{https://www.newegg.com/Product/Product.aspx?item=N82E16833704087}{Newegg} \\ \hline
+    Water Cooling Radiator & 1 & \$ 17.00 & \href{http://a.co/1dHksiW}{Amazon} \\ \hline
+    Water Cooler Reservoir & 1 & 14.18 & \href{http://a.co/0tiCxUf}{Amazon} \\
+    \hline
+    \end{tabular}
+\end{center}
 \end{document}
